@@ -1,0 +1,205 @@
+nav {
+  width: 100%;
+  background: linear-gradient(to right, #136a8a, #267871);
+  border-bottom: 10px red;
+}
+
+nav ul {
+margin: 0px;
+padding: 0px;
+letter-spacing: 1px;
+text-shadow: 1px;
+font-weight: 400;
+overflow: hidden;
+}
+
+nav li {
+list-style-type: none;
+float: left;
+}
+
+nav a {
+display: inline-block;
+text-decoration: none;
+padding: 20px 30px;
+color: white;
+font-weight: lighter;
+}
+
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgb(240, 240, 240);
+  color: rgb(50, 50, 50);
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  letter-spacing: 2px;
+  margin-top: 0;
+  color: #6B72E1;
+  font-size: 50px;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: #267871;
+  margin-bottom: 10px;
+}
+
+p {
+  padding: 15px;
+  margin: 15px;
+  color: rgb(30, 30, 30);
+}
+
+div {
+  background: white;
+  width: 600px;
+  padding: 40px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+#LPA {
+  box-shadow: 0 10px 20px rgb(220, 220, 220);
+  border-radius: 4px;
+}
+
+#Web {
+  border-radius: 4px;
+  box-shadow: 0 10px 20px rgb(220, 220, 220);
+}
+
+#cinema {
+  border-radius: 4px;
+  box-shadow: 0 10px 20px rgb(220, 220, 220);
+}
+
+#footer {
+  border-radius: 4px;
+  box-shadow: 0 10px 20px rgb(220, 220, 220);
+}
+
+#Art {
+  border-radius: 50%;
+}
+
+#meetup {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border:2px solid #136a8a;
+  padding: 30px;
+}
+
+.menu:hover {
+  background-color: rgb(30, 30, 30, 0.4);
+}
+
+#header {
+  width: auto;
+  height: 550px;
+  margin-top: 0;
+  background: #97A7B3;
+  background-image:
+  linear-gradient(to right, #136a8a, #267871),
+  url(images/voyage.jpg);
+  background-repeat: no-repeat;
+  background-position: right-bottom;
+}
+
+#header h1, img {
+  margin-bottom: 15px;
+  font-weight: 400;
+  color: rgb(220, 220, 220);
+}
+
+#header > p {
+  color: rgb(220, 220, 220);
+}
+
+#presentation {
+  margin: 10px auto;
+  background-color: rgb(240, 240, 240);
+}
+
+.btn-purple {
+  background: linear-gradient(to right, #136a8a, #267871);
+  border: solid 3px transparent;
+  color: white;
+  display: block;
+  padding: 15px;
+  margin: 30px 160px 10px 160px;
+  text-decoration: none;
+  border-radius: 30px;
+}
+
+.btn-purple:hover {
+  background: transparent;
+  border: solid 3px #136a8a;
+  border-color: linear-gradient(to right, #136a8a, #267871);
+  color: grey;
+}
+
+#btn-purple_head {
+  background-color: #343434;
+  color: white;
+  padding: 15px;
+  text-decoration: none;
+  border-radius: 30px;
+}
+
+#btn-purple_head:hover {
+  background-color: #D0CFCF;
+  color: black;
+}
+
+.social-link {
+  font-size: 40px;
+  padding: 20px;
+}
+
+.social-link > a:hover {
+  color: #267871;
+}
+
+.social-link > a {
+  text-decoration: none;
+  color: rgb(200, 200, 200);
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0;
+}
+
+.list-inline > li {
+  display: inline;
+}
+
+#video_reponsive {
+  margin: : 15px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
